@@ -19,7 +19,7 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-loading: { color: '#FFEB3B' },
+loading: { color: '#1B5E20' },
   /*
   ** Global CSS
   */
@@ -116,7 +116,7 @@ auth: {
     theme:{
       themes:{
         light:{
-          primary: "#827717",
+          primary: "#1B5E20",
           accent: "#424242",
           secondary: "#ff8f00",
           info: "#26a69a",

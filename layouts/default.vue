@@ -29,78 +29,6 @@
           </v-list-item-content>
         </v-list-item>
 
-         <v-list-item link :to="{name: 'pos'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-chart-line</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Pos</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'sections-kitchen'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-hand</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Kitchen</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'sections-barista'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-hand</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Barista</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'sections-cashier'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-hand</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Cashier</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'pos-onhold'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-hand</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >On Hold</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'sales'}" exact color="primary" v-if="isAdmin || isCashier">
-          <v-list-item-action>
-            <v-icon>mdi-file-chart</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Sales</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'expenses-purchases'}" exact color="primary">
-          <v-list-item-action>
-            <v-icon>mdi-file-cabinet</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Purchases</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
-        <v-list-item link :to="{name: 'expenses'}" exact color="primary">
-          <v-list-item-action>
-            <v-icon>mdi-file-cabinet</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title >Expenses</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-
         <v-list-item link :to="{name: 'settings'}" exact color="primary">
           <v-list-item-action>
             <v-icon>mdi-cog-sync</v-icon>
@@ -121,7 +49,7 @@
       dark
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" v-if="isAuthenticated"></v-app-bar-nav-icon>
-      <v-toolbar-title>TEST POS</v-toolbar-title>
+      <v-toolbar-title>GAS POS</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -183,7 +111,7 @@
       horizontal
     >
         <v-card-subtitle>
-          <span>TEST POS &copy; {{new Date().getFullYear()}}. All rights reserved.</span>
+          <span>GAS POS &copy; {{new Date().getFullYear()}}. All rights reserved.</span>
         </v-card-subtitle>
 
     </v-bottom-navigation>
