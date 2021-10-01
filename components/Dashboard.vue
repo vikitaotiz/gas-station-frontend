@@ -3,7 +3,6 @@
     <v-row>
       <v-col cols="12" sm="8">
         <v-card
-        tile
         class="mx-auto text-center"
         color="primary"
         dark
@@ -42,32 +41,32 @@
       </v-card>
       </v-col>
       <v-col cols="12" sm="4">
-        <v-card tile dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
-        <v-card tile dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
-        <v-card tile dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
-        <v-card tile dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
-        <v-card tile dark color="primary" class="pa-3 font-weight-thin">Today's Sales</v-card>
+        <v-card dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
+        <v-card dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
+        <v-card dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
+        <v-card dark color="primary" class="pa-3 mb-2 font-weight-thin">Today's Sales</v-card>
+        <v-card dark color="primary" class="pa-3 font-weight-thin">Today's Sales</v-card>
       </v-col>
     </v-row>
     <v-divider dark color="primary"></v-divider>
     <v-row>
       <v-col cols="12" sm="3">
-        <v-card tile dark color="primary" class="pa-3">
+        <v-card dark color="primary" class="pa-3">
           Cash
         </v-card>
       </v-col>
       <v-col cols="12" sm="3">
-        <v-card tile dark color="primary" class="pa-3">
+        <v-card dark color="primary" class="pa-3">
           Cash
         </v-card>
       </v-col>
       <v-col cols="12" sm="3">
-        <v-card tile dark color="primary" class="pa-3">
+        <v-card dark color="primary" class="pa-3">
           Cash
         </v-card>
       </v-col>
       <v-col cols="12" sm="3">
-        <v-card tile dark color="primary" class="pa-3">
+        <v-card dark color="primary" class="pa-3">
           Cash
         </v-card>
       </v-col>

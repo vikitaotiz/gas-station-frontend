@@ -39,6 +39,19 @@
               <v-icon class="mr-1">mdi-cog</v-icon>Roles</p>
           </v-card>
       </v-col>
+
+      <v-col cols="12" md="3">
+        <v-card
+            color="primary"
+            dark
+            outlined
+            class="pa-2"
+            :to="{name: 'measurements'}"
+          >
+            <p>
+              <v-icon class="mr-1">mdi-cog</v-icon>Measurements</p>
+          </v-card>
+      </v-col>
     </v-row>
   </v-container>
 </template>
